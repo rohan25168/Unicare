@@ -1,0 +1,35 @@
+body{
+    background-color: #CFD6C4;
+}
+ .category-card {
+     margin: 20px 0;
+     padding: 20px;
+     border: 1px solid #f7f3f3;
+     border-radius: 8px;
+     transition: transform 0.3s, background-color 0.3s;
+     cursor: pointer;
+     background-color:  #657166;
+ }
+
+ .category-card:hover {
+     transform: scale(1.05);
+     background-color: #a4a7a5;
+     color: #000;
+ }
+
+ .category-icon {
+     font-size: 40px;
+     margin-bottom: 15px;
+     color: #424343;
+ }
+
+ .category-title {
+     font-weight: bold;
+     font-size: 1.2rem;
+     color: #CFD6C4;
+ }
+
+ .category-description {
+     font-size: 0.9rem;
+     color: #CFD6C4;
+ }

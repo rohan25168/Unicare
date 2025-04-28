@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-left:25%;
+  padding: auto;
+  background-color: #CFD6C4;
+  color: #657166;
+}
+
+.jumbotron {
+  background-color: #657166;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+ #image .text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  top: 20%;
+}
+
+ #image .searchbar {
+  margin-top: 20px;
+}
+
+ #image .searchbar input {
+  width: 60%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+ #image .searchbar button {
+  background-color: #CFD6C4;
+  color: #657166;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 0%;
+}
+
+.col-md-3 {
+  flex: 0 0 23%;
+  text-align: center;
+  
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #657166;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #657166;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: #657166;
+}
+
+.location {
+  padding: 40px;
+}
+
+#state-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #657166;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.certified button {
+  background-color: #657166;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.top {
+  padding: 40px;
+  margin-left: 125px;
+}
+
+.top h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #657166;
+  color: rgb(66, 65, 65);
+  padding: 20px 0;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-container a {
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+}
+#link{
+  text-decoration: none;
+  color: black;
+}
+.ngo-list .ngo-item button{
+  background-color: #ced3cf;
+  color:aliceblue;
+  border-radius: 5px;
+  height: 50px;
+  width:100px ;
+
+}
+.ngo-list .ngo-item button:hover{
+  background-color: white;
+  color:black;
+  height: 70px;
+  width: 150px;
+}

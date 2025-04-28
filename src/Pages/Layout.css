@@ -1,0 +1,84 @@
+/* navbar styling */
+.navbar-light {
+  background-color: #CFD6C4;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #657166;
+  font-weight: bold;
+  font-size: larger;
+  transition: #303f18 0.3s ease;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight:bolder;
+  transform: scale(1.1);
+  filter: brightness(0.9);
+  box-shadow: #303f18;
+  transition: transform 0.5s ease;
+  
+}
+
+.navbar-toggler {
+  border-color: #657166;
+}
+
+.navbar-toggler-icon {
+  background-color: #657166;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #FFFFFF;
+}
+
+.collapse.navbar-collapse {
+  transition: all 0.5s ease;
+}
+
+/* Logo image styling */
+.navbar .img img {
+  height: 100px; 
+  
+  transition: transform 0.5s ease;
+}
+
+.navbar .img img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.9);
+  box-shadow: #303f18;
+}
+
+.nav-item.active .nav-link {
+  color: white;
+  background-color: #657266;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  transition: #5f8462 0.3s ease;
+  
+}
+
+/* Icon styling */
+.bi-person-circle {
+  color: #657166;  
+  margin-top: 20px;  
+  margin-left: 20px;      
+  width: 50px;              
+  height: 50px;             
+  transition: #657166 0.5s ease, black transform 0.5s ease; 
+}
+
+/* Hover effect */
+.bi-person-circle:hover {
+  color: #3a4822;           
+  transform: scale(1.1);
+  filter: brightness(0.9);
+  box-shadow: #303f18;
+  transition: transform 0.5s ease;   
+}

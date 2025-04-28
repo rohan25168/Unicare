@@ -1,0 +1,234 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-image: linear-gradient(#abb1a1,#CFD6C4,#c3ccc4);
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #657166;
+  color: white;
+  padding: 15px 0;
+  position: sticky;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 ;
+  padding: 0 ;
+}
+
+header .logo a {
+  font-size: 30px;
+  color: #292e2a;
+  text-decoration: none;
+  margin-left: 0;
+  padding-left: 5px;
+}
+
+header .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+header .nav-links li a{
+  margin-right: 30px;
+  margin-left: 30px;
+  justify-content: space-between;
+  color: #000;
+  font-size: 22px;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   
+  
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  
+  margin-right: 10px;
+ 
+
+}
+
+header .btn {
+  background-color: #4CAF50;
+  border: none;
+  padding: 10px;
+  margin-top: 0;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header .btn:hover {
+  background-color: #45a049;
+}
+
+
+  
+
+/* Jumbotron Section */
+.jumbotron {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: url('bg1.png') no-repeat center center;
+background-size: cover;
+padding: 80px 20px;
+color: #1c201c;
+}
+
+.jumbotron-text {
+max-width: 600px;
+margin-right: 20px;
+}
+
+.jumbotron h1 {
+font-size: 48px;
+font-weight: bold;
+}
+
+.jumbotron .jumbotron-text  .lead {
+font-size: 35px;
+
+}
+
+.jumbotron #textbold {
+font-size: 30px;
+font-weight: bold;
+margin: 20px 0;
+}
+
+.jumbotron .btn {
+background-color: #CFD6C4;
+padding: 12px 24px;
+font-size: 18px;
+border-radius: 5px;
+text-decoration: none;
+color: #657166;
+}
+
+.jumbotron .btn:hover {
+background-color: #CFD6C4;
+}
+
+.container .row .col-md-3 h1{
+color: #292e2a;
+}
+.container .row .col-md-3 h2{
+color: #292e2a;
+}
+.container .row .col-md-3 .card .card-header{
+background-color: #CFD6C4;
+}
+
+.container .row .col-md-3 .card .card-body{
+background-color: #CFD6C4;
+}
+.container .row .col-md-3 .card .card-body .dropdown .dropdown-menu{
+background-color: #CFD6C4;
+padding: 20px;
+color: black;
+}
+.container .row .col-md-3 .card .card-body .dropdown .btn{
+background-color:   #CFD6C4;
+height: 50px;
+width: 90px;
+color: black;
+border: 5px;
+}
+.container .row .col-md-3 .card .card-body .dropdown .btn:hover{
+background-color: #657166;
+height: 60px;
+width: 100px;
+color: white;
+
+}
+.container .row h3 b{
+color: #657166;
+}
+.row .col-md-2 .card .card-header {
+background-color: #ecedea;
+}
+
+.row .col-md-2 .card .card-header:hover {
+
+
+
+height: 250px;
+width: 250px;
+}
+.row .col-md-2 .card .card-header p:hover {
+background-color: white;
+size: 50%;
+color: #657166;
+height: 200px;
+width: 200px;
+}
+
+
+
+.info{
+margin-left: 20px ;
+padding-left: 10px;
+}
+
+/* Footer Styles */
+footer {
+background-color: #CFD6C4;
+color: #657166;
+padding: 20px 0;
+text-align: center;
+}
+
+footer .footer-container {
+max-width: 1200px;
+background-color: #CFD6C4;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+footer ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+footer ul li {
+margin: 0;
+}
+
+footer ul li a {
+color: #657166;
+text-decoration: none;
+font-size: 14px;
+}
+
+footer ul li a:hover {
+text-decoration: underline;
+}
+
+  
+
+
+
+
+
